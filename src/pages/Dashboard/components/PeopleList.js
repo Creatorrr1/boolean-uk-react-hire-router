@@ -1,10 +1,7 @@
 import PeopleListItem from "./PeopleListItem";
 
 function PeopleList(props) {
-  const { people, where } = props;
-
-  console.log("people", people);
-  console.log("where", where);
+  const { people } = props;
 
   return (
     <ul>

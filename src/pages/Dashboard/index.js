@@ -18,11 +18,11 @@ function Dashboard(props) {
     <main className="dashboard-layout">
       <section>
         <h2>People</h2>
-        <PeopleList people={people} where={"people"} />
+        <PeopleList people={people} />
       </section>
       <section>
         <h2>Hired People</h2>
-        <PeopleList people={hiredPeople} where={"hired"} />
+        <PeopleList people={hiredPeople} />
       </section>
     </main>
   );
