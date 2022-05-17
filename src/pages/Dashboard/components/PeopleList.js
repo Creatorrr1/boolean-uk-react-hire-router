@@ -1,7 +1,10 @@
-import PeopleListItem from "./PeopleListItem"
+import PeopleListItem from "./PeopleListItem";
 
 function PeopleList(props) {
-  const { people } = props
+  const { people, where } = props;
+
+  console.log("people", people);
+  console.log("where", where);
 
   return (
     <ul>
@@ -9,7 +12,7 @@ function PeopleList(props) {
         <PeopleListItem key={index} person={person} />
       ))}
     </ul>
-  )
+  );
 }
 
-export default PeopleList
+export default PeopleList;
